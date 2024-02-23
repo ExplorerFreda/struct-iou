@@ -10,6 +10,7 @@ See more details in the [paper](https://home.ttic.edu/~freda/data/papers/structa
 ## Installation
 ```bash
 git clone https://github.com/ExplorerFreda/struct-iou.git
+cd struct-iou
 pip install . --upgrade
 ```
 
