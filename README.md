@@ -1,8 +1,8 @@
 # Structured IoU for Evaluation of (Speech) Constituency Parsing
 
-This library implements a metric (Struct-IoU) that compares two constituency parse trees, represented as (relaxed) segment trees, with structured tree alignment--based intersection over union ratio.
+This library implements the structured intersection-over-union ratio (Struct-IoU) metric that compares two constituency parse trees, represented as (relaxed) segment trees.
 
-In contrast to existing metrics, Struct-IoU takes into account the word boundaries of speech constituency parse trees, and does not require an ASR system in the loop.
+In contrast to existing metrics, Struct-IoU takes into account the word boundaries of speech constituency parse trees, and does not require text or ASR systems in the loop.
 The metric can be easily extended to evaluate text constituency parsing, by assuming unit-length word boundaries.
 
 See more details in the [paper](https://home.ttic.edu/~freda/data/papers/structaiou.pdf).
